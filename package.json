@@ -1,0 +1,15 @@
+{
+  "name": "generator-ffp",
+  "version": "0.1.0",
+  "description": "Some utilities I use frequently",
+  "files": [
+    "ng-module"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "yeoman-generator": "^0.21.2"
+  }
+}

@@ -14,7 +14,7 @@
     function getRoutes() {
         return [
             {
-                url: '/',
+                url: '/<%= moduleName %>',
                 config: {
                     templateUrl: 'app/modules/<%= moduleName %>/<%= moduleName %>.html',
                     controller: '<%= moduleNameCap %>',

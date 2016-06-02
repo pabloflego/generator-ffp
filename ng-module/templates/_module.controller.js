@@ -5,12 +5,12 @@
         .module('<%= appName %>.<%= moduleName %>')
         .controller('<%= moduleNameCap %>', <%= moduleNameCap %>);
 
-    <%= moduleNameCap %>.$inject = [];
+    <%= moduleNameCap %>.$inject = ['$q'];
     /**
      * @description <%= moduleNameCap %> Controller Constructor
      * @constructor
      */
-    function <%= moduleNameCap %>() {
+    function <%= moduleNameCap %>($q) {
         /*jshint validthis: true */
         var vm = this;
 
